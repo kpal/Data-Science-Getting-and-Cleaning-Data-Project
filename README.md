@@ -14,7 +14,7 @@ Description of the files in this repo are as follows:
 * dataAverageSubjectActivity.txt is the output of the run_analysis.R file that contains a cleaned up dataset with the average of each variable for each activity and each subject.
 
 
-# Instruction
+# Instructions
 
 The R code file can be run by simply importing it into R or RStudio provided the above mentioned dataset is present in the same folder, un-compressed and without names altered. The script run_analysis.R performs the following 5 steps as described in the instructions of the course project.
 
