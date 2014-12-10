@@ -1,6 +1,6 @@
 # Introduction
 
-The script run_analysis.R performs the following 6 steps as described in the instructions of the course project.
+The script run_analysis.R performs the following 5 steps as described in the instructions of the course project.
 
 1. The training and testing data for X, y and subject variables are read into R and combined using rbind() and cbind() functions into one dataset called data.
 
@@ -18,6 +18,6 @@ The script run_analysis.R performs the following 6 steps as described in the ins
 * X, y and subject combine the training and testing data for each variable respectively using rbind(), and then data combines these three datasets together into one large dataset using cbind().
 * features contains the names of the features corresponding to each column of data.
 * colsWanted gives the names of the features from features that have mean or std in their description.
-* dataMeanStd is a subset of data containing only the columns given by colsWanted and the last two columns 562 and 563 corresponding to the y and subject data.
+* dataMeanStd is a subset of data containing only the columns given by colsWanted and the last two columns 562 and 563 corresponding to the y and subject data respectively.
 * activity contains the names of the activities corresponding to the activity ids present in the y variable, and is used to substitute the corresponding numeric column of dataMeanStd by the descriptive name of each activity.
 * dataAverageSubjectActivity contains the average of each variable for each activity and each subject, which is created using the function ddply() from the package plyr.
